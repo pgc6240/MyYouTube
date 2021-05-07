@@ -1,0 +1,63 @@
+/* 
+  Localizable.strings
+  MyYouTube
+
+  Created by pgc6240 on 07.05.2021.
+  
+*/
+
+"Subscriptions"                                 = "Мои подписки";
+"My subscriptions"                              = "Мои подписки";
+"Close"                                         = "Закрыть";
+"Search channels..."                            = "Поиск каналов на YouTube";
+"%@ subscribers"                                = "%@ подписчиков";
+"Subscribe"                                     = "Подписаться";
+"Unsubscribe"                                   = "Отписаться";
+"subscribe"                                     = "подписаться";
+"unsubscribe"                                   = "отписаться";
+"Search videos..."                              = "Искать видео...";
+"Video feed"                                    = "Видео фид";
+"%@ views"                                      = "%@ просмотров";
+"Set time stamp at:\n%@"                        = "Поставить отметку на: %@";
+"Play at time stamp:\n%@"                       = "Воспроизвести с отметки: %@";
+"Description:"                                  = "Описание:";
+"Main"                                          = "Главная";
+"Search"                                        = "Поиск";
+"Most popular videos in %@"                     = "Самые популярные видео в %@";
+"My time stamps"                                = "Временные отметки";
+"USA"                                           = "США";
+"Russia"                                        = "России";
+"Time stamp at: %@"                             = "Отметка на: %@";
+"Clear timestamps"                              = "Очистить список";
+"Start tab:"                                    = "Стартовая вкладка:";
+"Language & region:"                            = "Язык и регион:";
+"Settings"                                      = "Настройки";
+"Language will be changed after app relaunch."  = "Смена языка произойдёт после перезапуска приложения.";
+"5 most popular videos in USA"                  = "5 самых популярных видео в России";
+"Display video description"                     = "Показывать описание видео";
+"Sort by:"                                      = "Сорт.:";
+"Old first"                                     = "Сн. старые";
+"New first"                                     = "Сн. новые";
+"Manually"                                      = "Вручную";
+"%@ videos"                                     = "%@ видео";
+"Save"                                          = "Сохранить";
+"Close"                                         = "Закрыть";
+"Back"                                          = "Назад";
+"Search results for \"%@\""                     = "Результаты поиска: \"%@\"";
+"No time stamps. Yet."                          = "Пока ни одной отметки.";
+"Video shared from YouTube app:"                = "Видео открытое из приложения YouTube:";
+"No search results."                            = "Ничего не найдено.";
+"You haven't subscribed any channel yet."       = "Вы не подписаны ни на один канал.";
+"Loading..."                                    = "Загрузка...";
+"Search in %@ videos..."                        = "Искать среди %@ видео канала...";
+"Next page"                                     = "След стр";
+"Prev page"                                     = "Пред стр";
+"%@'s videos"                                   = "%@";
+"Cancel"                                        = "Закрыть";
+"Something went wrong..."                       = "Что-то пошло не так...";
+"Search on current page..."                     = "Искать на текущей странице...";
+"Network is unavailable"                        = "Интернет недоступен";
+"There will be subscribed channel videos.
+Please, subscribe for one."                     = "Здесь будут отображаться видео с каналов, на которые Вы подписаны.";
+"No channel videos."                            = "Нет видео на канале.";
+"No videos matching query."                     = "Нет видео по такому запросу.";
