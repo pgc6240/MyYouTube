@@ -12,8 +12,6 @@
 		310F30D12645602400E2E7F6 /* Share Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 310F30C72645602400E2E7F6 /* Share Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		310F30D52645605500E2E7F6 /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3169073D26453715008E4AE6 /* UserDefault.swift */; };
 		310F30D62645605C00E2E7F6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31690728264535C0008E4AE6 /* Constants.swift */; };
-		3116A38526456EBE0010ED57 /* API_KEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3116A38426456EBE0010ED57 /* API_KEY.swift */; };
-		3116A38626456EBE0010ED57 /* API_KEY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3116A38426456EBE0010ED57 /* API_KEY.swift */; };
 		316907102645338C008E4AE6 /* MyYouTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316906FD2645338B008E4AE6 /* MyYouTubeApp.swift */; };
 		316907112645338C008E4AE6 /* MyYouTubeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316906FD2645338B008E4AE6 /* MyYouTubeApp.swift */; };
 		316907142645338C008E4AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316906FF2645338C008E4AE6 /* Assets.xcassets */; };
@@ -124,6 +122,9 @@
 		316907DE26454279008E4AE6 /* MyYouTube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316907DC26454279008E4AE6 /* MyYouTube.swift */; };
 		31E112B02645645100CF9687 /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 31E112AF2645645100CF9687 /* YTPlayer.html */; };
 		31E112B12645645100CF9687 /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 31E112AF2645645100CF9687 /* YTPlayer.html */; };
+		31FA073926471CC700519B44 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA073826471CC700519B44 /* String+Ext.swift */; };
+		31FA073A26471CC700519B44 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA073826471CC700519B44 /* String+Ext.swift */; };
+		31FA073B26471CC700519B44 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FA073826471CC700519B44 /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,7 +158,6 @@
 		310F30CC2645602400E2E7F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		310F30CE2645602400E2E7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		310F30D7264561FD00E2E7F6 /* Share Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Share Extension.entitlements"; sourceTree = "<group>"; };
-		3116A38426456EBE0010ED57 /* API_KEY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_KEY.swift; sourceTree = "<group>"; };
 		316906FD2645338B008E4AE6 /* MyYouTubeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyYouTubeApp.swift; sourceTree = "<group>"; };
 		316906FF2645338C008E4AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		316907042645338C008E4AE6 /* MyYouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyYouTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -225,6 +225,7 @@
 		316907F426454610008E4AE6 /* MyYouTube.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyYouTube.entitlements; sourceTree = "<group>"; };
 		3169082526455E26008E4AE6 /* macOS.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		31E112AF2645645100CF9687 /* YTPlayer.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = YTPlayer.html; sourceTree = "<group>"; };
+		31FA073826471CC700519B44 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -334,7 +335,6 @@
 		3169071F264534F3008E4AE6 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				3116A38426456EBE0010ED57 /* API_KEY.swift */,
 				31690728264535C0008E4AE6 /* Constants.swift */,
 				3169072B264535FD008E4AE6 /* Enumerations.swift */,
 				3169072E26453636008E4AE6 /* Formatters.swift */,
@@ -347,6 +347,7 @@
 			children = (
 				316907312645366D008E4AE6 /* Foundation+Ext.swift */,
 				316907342645368B008E4AE6 /* SwiftUI+Ext.swift */,
+				31FA073826471CC700519B44 /* String+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -642,6 +643,7 @@
 			files = (
 				310F30D52645605500E2E7F6 /* UserDefault.swift in Sources */,
 				310F30CA2645602400E2E7F6 /* ShareViewController.swift in Sources */,
+				31FA073B26471CC700519B44 /* String+Ext.swift in Sources */,
 				310F30D62645605C00E2E7F6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -682,6 +684,7 @@
 				316907A426453D7B008E4AE6 /* PlayerBar.swift in Sources */,
 				316907D3264541A4008E4AE6 /* PageControl.swift in Sources */,
 				31690738264536C6008E4AE6 /* SubscriptionManager.swift in Sources */,
+				31FA073926471CC700519B44 /* String+Ext.swift in Sources */,
 				3169073E26453715008E4AE6 /* UserDefault.swift in Sources */,
 				3169079026453C3A008E4AE6 /* VideoFeed.swift in Sources */,
 				3169079326453C67008E4AE6 /* Subscriptions.swift in Sources */,
@@ -698,7 +701,6 @@
 				316907BE26453EB3008E4AE6 /* VideoDuration.swift in Sources */,
 				316907532645383F008E4AE6 /* Video.swift in Sources */,
 				316907D6264541BF008E4AE6 /* SearchField.swift in Sources */,
-				3116A38526456EBE0010ED57 /* API_KEY.swift in Sources */,
 				316907B226453E39008E4AE6 /* EmptyStateView.swift in Sources */,
 				3169078E26453C1A008E4AE6 /* MyTimeStamps.swift in Sources */,
 				3169077726453AA0008E4AE6 /* YTPlayer+makeView.swift in Sources */,
@@ -725,7 +727,6 @@
 				3169074226453747008E4AE6 /* NetworkManager.swift in Sources */,
 				31690748264537A6008E4AE6 /* ResponseError.swift in Sources */,
 				3169079126453C3A008E4AE6 /* VideoFeed.swift in Sources */,
-				3116A38626456EBE0010ED57 /* API_KEY.swift in Sources */,
 				316907362645368B008E4AE6 /* SwiftUI+Ext.swift in Sources */,
 				3169079926453CAF008E4AE6 /* PlayerView.swift in Sources */,
 				3169077826453AA0008E4AE6 /* YTPlayer+makeView.swift in Sources */,
@@ -746,6 +747,7 @@
 				316907B026453DF8008E4AE6 /* LoadingView.swift in Sources */,
 				316907BC26453E98008E4AE6 /* VideoThumbnail.swift in Sources */,
 				31690739264536C6008E4AE6 /* SubscriptionManager.swift in Sources */,
+				31FA073A26471CC700519B44 /* String+Ext.swift in Sources */,
 				3169077E26453AFC008E4AE6 /* YTPlayer+JSMethod.swift in Sources */,
 				316907D4264541A4008E4AE6 /* PageControl.swift in Sources */,
 				316907C826453F2F008E4AE6 /* VideoCell.swift in Sources */,

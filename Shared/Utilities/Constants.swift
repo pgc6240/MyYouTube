@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-enum Constants {}
+enum Constants {
+    static let API_KEY  = String(fromResourceFile: "API_KEY.txt")
+}
 
 
 enum Images {

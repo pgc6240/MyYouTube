@@ -30,9 +30,7 @@ final class YTPlayer: NSObject, ObservableObject {
 extension YTPlayer {
     
     func loadVideo(_ video: Video) {
-        guard webView?.url == nil,
-              let path       = Bundle(for: Self.self).path(forResource: String(describing: Self.self), ofType: "html"),
-              var htmlString = try? String(contentsOfFile: path) else { return }
+        guard webView?.url == nil, var htmlString = String(fromResourceFile: "YTPlayer.html") else { return }
         self.video = video
         htmlString = htmlString.replacingOccurrences(of: "%@", with: video.id)
         webView?.loadHTMLString(htmlString, baseURL: nil)
